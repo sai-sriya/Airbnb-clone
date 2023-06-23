@@ -1,0 +1,100 @@
+.image img {
+    height: 6vh;
+    padding-left: 1rem;
+    margin-top: 0.2rem;
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.7rem;
+    height: 4vh;
+    border: 0.1rem solid black;
+    border-radius: 13rem;
+}
+
+.middle:hover,
+.last:hover {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    padding-right: 1rem;
+}
+
+.right {
+    border-right: 0.11rem solid black;
+    padding-right: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.search-bar {
+    padding-right: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.search-bar-input {
+    width: 5rem;
+    outline: none;
+    border: none;
+}
+
+.text-menu {
+    font-size: 0.8rem !important;
+    font-weight: 400 !important;
+}
+
+.search {
+    background-color: #FF385C;
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.1vw;
+    color: white;
+    padding: 0.1rem;
+}
+
+.profile-icons {
+    display: flex !important;
+    border-radius: 10rem !important;
+    justify-content: flex-start !important;
+    gap: 0.25rem;
+    border: 0.1rem solid white !important;
+    padding: 0.5rem !important;
+}
+
+.dialogtitle {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:816px) {
+
+    .last,
+    .middle {
+        display: none;
+    }
+}

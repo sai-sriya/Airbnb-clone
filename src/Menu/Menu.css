@@ -1,0 +1,96 @@
+.pop-up {
+    min-width: 38vw;
+    border-bottom: 1px solid black;
+}
+
+.country-code {
+    border-bottom: 2px solid #ddd;
+    padding: 0.5rem;
+}
+
+.contact-number-input input {
+    height: 7vh;
+    border: none;
+    min-width: 37.5vw;
+    outline: none;
+}
+
+.contact-number-container {
+    border: 2px solid #ddd;
+}
+
+
+.privacy-policy {
+    text-decoration: underline;
+    color: black;
+}
+
+.toggle-continue-button {
+    border: none;
+    outline: none;
+    background-color: #EC235E;
+    color: white;
+    margin-top: 1rem;
+    min-width: 40vw;
+    height: 8vh;
+    font-weight: bolder;
+}
+
+.continue-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0.5rem;
+}
+
+.apple-link,
+.facebook-link,
+.email-link,
+.google-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    position: relative;
+    top: 0.3rem;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.login-in-ways {
+    margin-top: 2rem;
+}
+
+.box-1:hover,
+.box-2:hover,
+.box-3:hover,
+.box-4:hover {
+    background-color: #F7F7F7;
+}
+
+.facebook,
+.apple,
+.email,
+.google {
+    font-size: 1.4rem !important;
+}

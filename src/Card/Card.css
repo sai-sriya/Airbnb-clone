@@ -1,0 +1,100 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.card-img {
+    height: 260px;
+    width: 260px;
+    object-fit: cover;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card-box-info {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-dynamic {
+    padding-bottom: 1.5rem;
+}
+
+.place {
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    font-weight: 700;
+}
+
+.date {
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    opacity: 0.7;
+}
+
+.star {
+    font-size: 0.9rem !important;
+}
+
+.rating {
+    font-size: 0.9rem
+}
+
+.rupee {
+    font-size: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.price-flex {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+
+.price {
+    font-weight: 500;
+    padding-right: 0.4rem;
+    font-size: 0.9rem;
+    margin-left: -0.2rem;
+}
+
+.desc {
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    opacity: 0.7;
+
+}
+
+.night {
+    margin-top: -0.2rem;
+}
+
+.swiper-container {
+    height: 265px;
+    width: 265px;
+}
+
+.card-dynamic .swiper-pagination-bullet-active {
+    background-color: white !important;
+}
